@@ -1,6 +1,18 @@
 body {
-  background-color: rgb(225, 236, 246);
-  margin: 50px auto 0 auto;
+  background: linear-gradient(
+      45deg,
+      #ffecb3,
+      #dcedc8,
+      #b3e0ff,
+      #f8bbd0,
+      #cfd8dc
+    )
+    no-repeat;
+  margin: 0%;
+  padding: 50px;
+  /* margin: 50px auto 0 auto; */
+  box-sizing: border-box;
+  height: 100vh;
   text-align: center;
   /* font-family: "circular", emoji; */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -9,10 +21,17 @@ body {
 
 .stopwatchContainer {
   max-width: 500px;
-  margin: 80px auto;
+  margin: auto;
   border-radius: 10px;
   padding: 5px;
-  background-color: rgb(167, 220, 220);
+  background: linear-gradient(
+    95deg,
+    #dac485,
+    #b8e188,
+    #82bee6,
+    #e9a8bf,
+    #9dd7f0
+  );
   box-shadow: 1px 1px 1px 0px #000029;
 }
 
